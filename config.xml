@@ -43,7 +43,7 @@
    
    <!-- Splash -->
    
-   <splash src="images/splash.jpg"/>
+   <gap:Splash src="images/splash.jpg"/>
    
    <gap:Splash src="images/splash.jpg" gap:plataform="android" gap:qualifier="splash"/>
   
