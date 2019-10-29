@@ -48,12 +48,12 @@
    
    <!-- Splash -->
    
-   <gap:Splash src="res/android/mdpi.png"/>
+   <splash src="res/android/mdpi.png"/>
    
-   <!--<platform name="android">
+   <platform name="android">
     <splash src="res/android/splash-land-mdpi.png" qualifier="land-mdpi"/>
     <splash src="res/android/splash-port-mdpi.png" qualifier="port-mdpi"/>
-   </plataform>-->
+   </plataform>
    <gap:Splash src="res/android/mdpi.png" gap:plataform="android" gap:qualifier="mdpi"/>
   
   </widget>  
