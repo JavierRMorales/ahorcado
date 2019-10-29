@@ -43,8 +43,8 @@
    
    <!-- Splash -->
    
-   <gap:Splash src="images/splash.jpg"/>
+   <gap:Splash src="images/png.jpg"/>
    
-   <gap:Splash src="images/splash.jpg" gap:plataform="android" gap:qualifier="splash"/>
+   <gap:Splash src="images/mdpi.png" gap:plataform="android" gap:qualifier="mdpi"/>
   
   </widget>  
