@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+
+		<title>Ahorcado</title>
+
+		<!--grupo CSS-->
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/estilo.css"/>
+
+		<!--grupo JavaScript-->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/acciones.js" type="text/javascript"></script>
+	    <script src="phonegap.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<!-- principal -->
+		<div data-role="page" id="Principal">   
+			<div data-role="header">
+
+			</div>
+
+			<div role="main" class="ui-content">
+				<div id="menu" style="text-align:center;">
+				 
+				 <h1 style="color:#000; font-size:90px; text-shadow:0px 0px 12px yellow;">AHORCADO</h1>
+				 
+					<form id ="opc"style="width:100%; text-align:center;">
+					
+					<div style="background: white; border-radius:5px; width:15%; display:inline-block; border: 2px groove green;">
+						<a style="color:#000;" href="#jugar"> jugar </a>
+					</div>
+						<br>
+						<br>
+					<div style="background: white; border-radius:5px; width:15%; display:inline-block; border: 2px groove green;">
+						<a style="color:#000;" href="#opciones"> Opciones </a>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- /principal -->
+		
+		
+		<!-- opciones -->
+		<div data-role="page" id="opciones" style="background: linear-gradient(to bottom,#888 0%,#070 100%);" >
+		
+			<div data-role="header">
+			<h1> Ahorcado - 5G </h1>
+			</div>
+			
+			<div role="main" class="ui-content">
+			
+				<div id="boton_ip">
+					<input type="text" id="txtip" placeholder="Direccion IP" pattern="[0-9.]{,15}">
+					<input type="button" class="ui-btn" id="btn-buscar-colecciones" value="Buscar colecciones">
+				</div>
+				
+				<div id="cargando" style="text-align:center;">
+					<img src="images/ajax-loader.gif">
+				</div>
+				
+				<div id="seleccion-opciones">
+					<h2> Selecciona una coleccion: </h2>
+					<select id="selcoleccion" name="selcoleccion">
+					</select>
+					<h2> Dificultad: </h2>
+					<select id="selcuantas" name="selcuantas">
+						<option value="3"> Facil </option>
+						<option value="6"> Normal </option>
+						<option value="9"> Dificil </option>
+					</select>
+					<input type="button" class="ui-btn" id="btn-enviar" value="Seleccionar">
+				</div>
+				<div style="text-align:center;">
+					<a style="color: #000;" href="#Principal"> Principal </a>
+				</div>
+			
+			</div>
+			<div data-role="footer" style="background:transparent; border-color:transparent; color:#000; font-shadow: 2px 2px 2px black; text-decoration:none;">
+				<h3 style="color:FFF; font-size:20px;">5-G<br>Javier Rugerio Morales<br>Andres Rojano Martínez<br>Ian Pablo Rojas Hernández Lima<br>Brisa Rubí Sarmiento Suárez<br>Abigail Martínez Rosas</h3>
+			</div>
+		<!-- /opciones -->
+	</body>
+</html> 

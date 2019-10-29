@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+input {
+	width:80%;
+	border-radius: 5px;
+}
+
+/* * {
+	font-family: "tarea";
+}
+
+@font-face {
+	font-family: "tarea";
+	src: url("../fuentes/AbsolutePink-PersonalUse.otf");
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+h3 {
+	color:0F0;
+}
+form {
+	text-align:center;
+	padding: 8px;
+	margin-top: 8px;
+}
+
+#opc {
+	text-align: center;
+}
+
+#seleccion-opciones{
+	display: none;
+}
+
+#cargando{
+	display: none;	
+}
+
+#menu{
+	display: none;
+}
+
+#splash{
+	text-align: center;
+}
+
+#splash img{
+	width: 75%;
+	height: auto;
+}
+
+a {
+	text-decoration:none; 
+	background:transparent;  
+	border: 1px solid white; 
+	background: white; 
+	border-radius: 5px; 
+	font-size:20px; 
+	color: black;
+}
+
+#Principal {
+	background: url(../images/ahorcado.jpg);
+	background-size: 100% 100%;
+}
