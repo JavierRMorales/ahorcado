@@ -41,11 +41,11 @@
    <plugin name="cordova-plugin-whitelist" source="npm"/>
    
    <!--Colocar icono app-->
-   <icon src="images/mdpi.png"/>
+   <icon src="res/android/mdpi.png"/>
    
    <!-- Splash -->
    
-   <gap:Splash src="images/mdpi.png"/>
+   <gap:Splash src="res/android/mdpi.png"/>
    
    <platform name="android">
     <splash src="res/android/splash-land-hdpi.png" qualifier="land- hdpi"/>
