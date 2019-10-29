@@ -23,7 +23,9 @@
   <preference name="fullscreen" value="true"/>
   <preference name="android-installLocation" value="auto"/>
   <preference name="permissions" value="INTERNET"/> 
-  
+  <preference name="AutoHideSplashScreen" value="true"/>
+  <preference name="SplashScreenDelay" value="3000"/>
+   
   <!--Plugins-->
   <plugin name="cordova-plugin-device" spec="~1.1.4"/>
   <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
@@ -43,8 +45,20 @@
    
    <!-- Splash -->
    
-   <gap:Splash src="images/png.jpg"/>
+   <gap:splash src="images/png.jpg"/>
    
+   <platform name="android">
+    <splash src="res/android/splash-land-hdpi.png" qualifier="land- hdpi"/>
+    <splash src="res/android/splash-land-ldpi.png" qualifier="land-ldpi"/>
+    <splash src="res/android/splash-land-mdpi.png" qualifier="land-mdpi"/>
+    <splash src="res/android/splash-land-xhdpi.png" qualifier="land-xhdpi"/>
+    <splash src="res/android/splash-land-xxhdpi.png" qualifier="land-xxhdpi"/>
+    <splash src="res/android/splash-port-hdpi.png" qualifier="port-hdpi"/>
+    <splash src="res/android/splash-port-ldpi.png" qualifier="port-ldpi"/>
+    <splash src="res/android/splash-port-mdpi.png" qualifier="port-mdpi"/>
+    <splash src="res/android/splash-port-xhdpi.png" qualifier="port-xhdpi"/>
+    <splash src="res/android/splash-port-xxhdpi.png" qualifier="port-xxhdpi"/>
+</plataform>
    <gap:Splash src="images/mdpi.png" gap:plataform="android" gap:qualifier="mdpi"/>
   
   </widget>  
