@@ -45,7 +45,7 @@
    
    <!-- Splash -->
    
-   <gap:splash src="images/png.jpg"/>
+   <gap:splash src="images/mdpi.png"/>
    
    <platform name="android">
     <splash src="res/android/splash-land-hdpi.png" qualifier="land- hdpi"/>
