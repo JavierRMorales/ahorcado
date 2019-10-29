@@ -50,18 +50,10 @@
    
    <gap:Splash src="res/android/mdpi.png"/>
    
-   <platform name="android">
-    <splash src="res/android/splash-land-hdpi.png" qualifier="land- hdpi"/>
-    <splash src="res/android/splash-land-ldpi.png" qualifier="land-ldpi"/>
+   <!--<platform name="android">
     <splash src="res/android/splash-land-mdpi.png" qualifier="land-mdpi"/>
-    <splash src="res/android/splash-land-xhdpi.png" qualifier="land-xhdpi"/>
-    <splash src="res/android/splash-land-xxhdpi.png" qualifier="land-xxhdpi"/>
-    <splash src="res/android/splash-port-hdpi.png" qualifier="port-hdpi"/>
-    <splash src="res/android/splash-port-ldpi.png" qualifier="port-ldpi"/>
     <splash src="res/android/splash-port-mdpi.png" qualifier="port-mdpi"/>
-    <splash src="res/android/splash-port-xhdpi.png" qualifier="port-xhdpi"/>
-    <splash src="res/android/splash-port-xxhdpi.png" qualifier="port-xxhdpi"/>
-   </plataform>
+   </plataform>-->
    <gap:Splash src="res/android/mdpi.png" gap:plataform="android" gap:qualifier="mdpi"/>
   
   </widget>  
